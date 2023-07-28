@@ -1,0 +1,31 @@
+.author{
+  display: flex;
+  justify-content: end;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: 'center';
+    justify-content: center;
+}
+
+.wrapper {
+  margin: 0 auto; 
+  width: 100vh;
+  background: linear-gradient(to right, #ee0979, #ff6a00);   border-radius: 10px;
+  color: aliceblue;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 20px 6px #090b6f85;
+  padding: 50px 20px 50px 20px;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
